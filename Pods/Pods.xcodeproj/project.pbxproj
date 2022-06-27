@@ -1,0 +1,1347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005B319B494ED2DAA239B9939A504DFC /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8B1280CD940056CDD6E5325E3F3969 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		045DE6EBF9B2F63F60F5BE60C1198E06 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9873C382877BF6FB9C9F74F66CC5C7 /* RedirectHandler.swift */; };
+		04A896288CE3A59B530250337A5F8362 /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B002CDA0E4B57403393DD2DE54F90118 /* Result+Alamofire.swift */; };
+		0F1B92DB03D56860EB1188A22F400C7D /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5118D77FE1C0CCDF611B90FBFDF26C34 /* CGSize.swift */; };
+		0F4037DBF307AC8058BD0A3D35C7E7E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		1976BB7D7E26A12E29283E71154B63B3 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AD70E352A934A7C0B5AFD9B6547ABE /* SessionDelegate.swift */; };
+		1E95E35B5189798873B416F0D7EBC5D1 /* FrameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC7E2833E57D49300966E3239824FA0 /* FrameStore.swift */; };
+		1EE44196E7BCE57AD96A2C751651EF40 /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3C00680B6D9D932AADEDB113A557F /* AlamofireExtended.swift */; };
+		20908FAD00F0AC1FD500B1D476FCFDE1 /* ImageSourceHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91050DE49EC9D651C754DE8D00F3C251 /* ImageSourceHelpers.swift */; };
+		2CBE3651CA006E19F5D64A2DE9B9A028 /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6820DD5F4CD9203C7864BC75CE77A737 /* CachedResponseHandler.swift */; };
+		2CCD13099063CD560E3067BD132914FA /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCDCAB9559BF43364697AB4045EA3E /* Notifications.swift */; };
+		33A7D0F2D03004CE256A75E03DF33C70 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE49F3D2199BCE707FF50B1B8FE7FB3 /* RetryPolicy.swift */; };
+		3C4059621E23842C19D4EB5D35B41989 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4BB81B70013BDE8ECEF557D52435CB /* Validation.swift */; };
+		46A64A43AFA057B6B63C8F0C12F509B4 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A331D91498C9F74C71A97618C9F3DF /* Combine.swift */; };
+		48AA0B84D04D9D805AE5A92F252AF11F /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE35BBF835C5BF07B5A47746312AA92C /* UIImage.swift */; };
+		4E0945227E4DF90F804B35949BC4A589 /* GIFImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054ECF35413FC50AECAACEF9125E4960 /* GIFImageView.swift */; };
+		4E81172E48C3EAB14F298FCA15911C83 /* Gifu.h in Headers */ = {isa = PBXBuildFile; fileRef = 92AA1F90D5E5A169992C0C9E7C1AB276 /* Gifu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55AABB1FB38F61A3369ACC555FF3046D /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A45050BA11E6D99F27BC7A42C9E1C7 /* Alamofire-dummy.m */; };
+		68FB2DCB4C77DBCAF9A6037E470F2BDE /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C921AD766322E36DE450A89B79C9C9 /* ParameterEncoding.swift */; };
+		6BDE6348880B6C64C34A53DC75D0A432 /* GIFAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54754266B09265EAD3082F13A46FBDEF /* GIFAnimatable.swift */; };
+		7483E5327027263F7E4B94A2997191C4 /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD54FBB3D1AB8D0908328D60D4EC2ABE /* AuthenticationInterceptor.swift */; };
+		74F26C7C6E06A0ED86D0F1CEB5A1518A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		75966A9262648D4647D764E3E76BC6AC /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = A765F0232B1E0A5A8E3C6C247D387E8A /* Response.swift */; };
+		7886594CB48D49802E9322DF01F31BCD /* Pods-HealthJoyApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F057F004A9180C9E06B8F1F40C2454B0 /* Pods-HealthJoyApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7930C94414B4C661867AC4FBE82E996C /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30631F357598DC2BBC58EB0A85B5B786 /* URLEncodedFormEncoder.swift */; };
+		7A4CC6217F1A8CA84673592E66989551 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		7B068137A8925891446203B5D3D6A4ED /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */; };
+		7E02F5B62BE00E97847DF549FFED2490 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661F8B3B4E7CBA7E28A52CB34E67CA5C /* HTTPHeaders.swift */; };
+		7F1BB526AAE3ECDCE90127D9D0E10261 /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB232CF18C49A9B7975AE5E154796F0 /* StringEncoding+Alamofire.swift */; };
+		7FE695DA8EE7FF1286556E06B692009B /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D6AEAFFC1077A4716F6592EC704A5E /* MultipartFormData.swift */; };
+		808C960C82D708FC1A42C581D6CB4940 /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DC8AEEFC31F257F685A0D81DC97073 /* URLSessionConfiguration+Alamofire.swift */; };
+		81B8D2B7CEB25C2448B0BC9B33591A65 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7A566A9E8CCEF21B4D0E1FD5B36AB1 /* Session.swift */; };
+		824D816B1EE404F2DD400EE678695CBE /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174D2C1FF5085222AA851B6AB0545E91 /* ResponseSerialization.swift */; };
+		8D3F3FD55A479556431E277334C57DF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		8D75FC8D7476C9674234F39F1A820D8C /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DF5E9B3CAE2C75882E761B56D971A5 /* URLConvertible+URLRequestConvertible.swift */; };
+		903808438D3116C07196D1AC78CE06E8 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C23AF08AEE50F45A5B3C7D18103729 /* Array.swift */; };
+		92B31A28677A93591820C93F4E8BC8A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		979756D4DB9441CE42439784AE179907 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77D77810B7AD4A112A1255428A33E2F /* Animator.swift */; };
+		99D058E53EFEE3AC4857CDE3DBA5C004 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDF26843D34E8709A13D3A0D2281358 /* ParameterEncoder.swift */; };
+		9C9030DEDB0DF955B16FE08C50892D57 /* Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713765C6AE18BA8BA161622D9CE2E74 /* Concurrency.swift */; };
+		9DCA114C38CB4534E2F255FA7D947C89 /* AnimatedFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FA85540762B4479C0FC72542A44D6 /* AnimatedFrame.swift */; };
+		A1712D1CBCA7088C76986996216593FD /* Pods-HealthJoyApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 977408FA52751A32A143EA91D0F41753 /* Pods-HealthJoyApp-dummy.m */; };
+		A29100AA1876DDEFF6F54694A51FDB0E /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46890C79B544B46255F30F83E344117 /* NetworkReachabilityManager.swift */; };
+		A35DCDCE5AD53594EEE4A8E89F91CFF8 /* Gifu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C4225DA0638A36A2A409D832426A77 /* Gifu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3C364CB7021D4CBC68B881ED4535642 /* Pods-HealthJoyAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C2035EB8A2A1712BB15E16F2FFED74 /* Pods-HealthJoyAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A53BDE589BDD6483F3EEDCE5EA1DCCD3 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ECC9C11C42123581AD5DDE029DA4A6 /* Protected.swift */; };
+		A69E0DE22D98E9143F9EE0FDC7951850 /* Pods-HealthJoyApp-HealthJoyAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 755BAE21864890B8B56B9DE0B7B8ED3A /* Pods-HealthJoyApp-HealthJoyAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A88E18922997843702001AAC645BFD1B /* Pods-HealthJoyApp-HealthJoyAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AFD9AE435816F101CB06B1DDF7E3D4 /* Pods-HealthJoyApp-HealthJoyAppUITests-dummy.m */; };
+		B3658C29BBDE1033F6269A92E612CB30 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CFFC13643F72C8B963DFB93C7324B1 /* Request.swift */; };
+		B704B198B9B520D449260877E300D821 /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C99CD430D975B1231E2745BF279F55 /* ServerTrustEvaluation.swift */; };
+		BC0ECA8F22DEDE8886E189CD0EAA1197 /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39166EE7EC36411C56AD1EC40B090B18 /* URLRequest+Alamofire.swift */; };
+		C56D8064D2EB57557C642E262F4E696C /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE514A2C12FD97AA241A7A2F75CE7B6 /* UIImageView.swift */; };
+		CEBFFEED65D877702B2F36102528CF6D /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E96ABAB17ED8205247B0FE1A43A55 /* EventMonitor.swift */; };
+		D0EA90FBF83350C49E6EF6C8A98D6F00 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FCB62A4BCFCFC298D863C401403B37 /* AFError.swift */; };
+		D6B4751CED01D53E4A1B6A571AAA2F83 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530C20F5A68607BE8D58DE5049B8A979 /* HTTPMethod.swift */; };
+		DA34899BEF0668D76CBCE8C4CE47B97B /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0968E8B9DDC29F32DEBE2148AC4BACD0 /* RequestTaskMap.swift */; };
+		DD902FE8D6824681C929D028655AE121 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287B322097C0374D6CD9B1132C4FD69D /* RequestInterceptor.swift */; };
+		E54654D504A42C24F284A68F87F7671D /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C68F5D6E2DC2F937ABF1188A9A6BE62 /* OperationQueue+Alamofire.swift */; };
+		E9B4C89E7EB3B27D46AFCA452C3D426F /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C413E46AC2A1CC1D40F6724A02F39E1 /* MultipartUpload.swift */; };
+		EEC150B66BCCD6C80FDA7E4D1975166B /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE73D98EF43E9E8833B94CF00D5F75F /* DispatchQueue+Alamofire.swift */; };
+		F17A4CA4664CABB331D39FE902E06843 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433EEA876F187B95ED3C2FEE26C4DD78 /* Alamofire.swift */; };
+		F6B01E693132F36190B0CC43BAC43F53 /* Gifu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 006D7477DF77ACE9FBFE8A8CC5EBF483 /* Gifu-dummy.m */; };
+		F708AECDA3DAF41CD72DF3C50B7A4E13 /* Pods-HealthJoyAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F22BE8159AC552A3CEFC66442A707983 /* Pods-HealthJoyAppTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		570F84F58F38B5752E998CE9A5029038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 830B5AB9E16163B4A1BA339D625FE46C;
+			remoteInfo = Gifu;
+		};
+		5E9CB02892DB802323D1DD82D1823C35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 830B5AB9E16163B4A1BA339D625FE46C;
+			remoteInfo = Gifu;
+		};
+		DDD266972C87A3EE7540800CB3AA393A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		F882967FF8396A418951AB92C4604EC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		FA98CE7DDBA4946FCE85A300D6AB8DD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 837095C0F8D67E73884D343A20F9AEFB;
+			remoteInfo = "Pods-HealthJoyApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006D7477DF77ACE9FBFE8A8CC5EBF483 /* Gifu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gifu-dummy.m"; sourceTree = "<group>"; };
+		00A45050BA11E6D99F27BC7A42C9E1C7 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		02A86CD34FD4AC6933D3FE2DACBFA4DB /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		036EE191B6953D142E3BFB61832F8635 /* Pods-HealthJoyApp-HealthJoyAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthJoyApp-HealthJoyAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		054ECF35413FC50AECAACEF9125E4960 /* GIFImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIFImageView.swift; path = Sources/Gifu/Classes/GIFImageView.swift; sourceTree = "<group>"; };
+		06964E5D952EF2F11BCD104079B65DED /* Pods-HealthJoyAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthJoyAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		088C1376148B60F90F5B142B50BAB898 /* Pods-HealthJoyApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HealthJoyApp-frameworks.sh"; sourceTree = "<group>"; };
+		0968E8B9DDC29F32DEBE2148AC4BACD0 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
+		0AFCDCAB9559BF43364697AB4045EA3E /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		0EB232CF18C49A9B7975AE5E154796F0 /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
+		13AFD9AE435816F101CB06B1DDF7E3D4 /* Pods-HealthJoyApp-HealthJoyAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HealthJoyApp-HealthJoyAppUITests-dummy.m"; sourceTree = "<group>"; };
+		143133CA9B9CC0BC41B2D5A9208E1822 /* Pods-HealthJoyAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HealthJoyAppTests.modulemap"; sourceTree = "<group>"; };
+		174D2C1FF5085222AA851B6AB0545E91 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		1794DF7DA19D94E5F7ED9723B28E482D /* Pods-HealthJoyApp-HealthJoyAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthJoyApp-HealthJoyAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C6BA24C66E4505E7174E93CEF0FC48E /* Gifu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gifu.release.xcconfig; sourceTree = "<group>"; };
+		23CFFC13643F72C8B963DFB93C7324B1 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		287B322097C0374D6CD9B1132C4FD69D /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
+		29EC2A43A6C99F4B1AE6489A48D5FC2A /* Pods-HealthJoyApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HealthJoyApp.modulemap"; sourceTree = "<group>"; };
+		2CDF26843D34E8709A13D3A0D2281358 /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
+		2DC7E2833E57D49300966E3239824FA0 /* FrameStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameStore.swift; path = Sources/Gifu/Classes/FrameStore.swift; sourceTree = "<group>"; };
+		30631F357598DC2BBC58EB0A85B5B786 /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
+		365A5A5DF6DE72938AA8685D0614B970 /* Pods-HealthJoyApp-HealthJoyAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HealthJoyApp-HealthJoyAppUITests.modulemap"; sourceTree = "<group>"; };
+		3713765C6AE18BA8BA161622D9CE2E74 /* Concurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Concurrency.swift; path = Source/Concurrency.swift; sourceTree = "<group>"; };
+		3763FA58AABEBEB476F4B558E1DB95E0 /* Pods-HealthJoyAppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HealthJoyAppTests"; path = Pods_HealthJoyAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39166EE7EC36411C56AD1EC40B090B18 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		3EE49F3D2199BCE707FF50B1B8FE7FB3 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
+		3F7A566A9E8CCEF21B4D0E1FD5B36AB1 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
+		40E5F8D9277E714962AFA02550F15F8A /* Gifu */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Gifu; path = Gifu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		433EEA876F187B95ED3C2FEE26C4DD78 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		447F6FEA7E31F0AE96EE4D14EF5BE985 /* Pods-HealthJoyApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthJoyApp-Info.plist"; sourceTree = "<group>"; };
+		48ABF5C39A7F8272451767011D6715D5 /* Pods-HealthJoyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthJoyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4C0296F4823D6CDC3033C52D555699C6 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		4F22875C3549E95EAC690D84CE8F49A1 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		5118D77FE1C0CCDF611B90FBFDF26C34 /* CGSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGSize.swift; path = Sources/Gifu/Extensions/CGSize.swift; sourceTree = "<group>"; };
+		51C23AF08AEE50F45A5B3C7D18103729 /* Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Array.swift; path = Sources/Gifu/Extensions/Array.swift; sourceTree = "<group>"; };
+		530C20F5A68607BE8D58DE5049B8A979 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
+		54754266B09265EAD3082F13A46FBDEF /* GIFAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIFAnimatable.swift; path = Sources/Gifu/Classes/GIFAnimatable.swift; sourceTree = "<group>"; };
+		54D6AEAFFC1077A4716F6592EC704A5E /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		56C921AD766322E36DE450A89B79C9C9 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		57FCB62A4BCFCFC298D863C401403B37 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		5B8665037B8DA63C84CDA3E69F605E1E /* Pods-HealthJoyApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HealthJoyApp"; path = Pods_HealthJoyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C68F5D6E2DC2F937ABF1188A9A6BE62 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C2035EB8A2A1712BB15E16F2FFED74 /* Pods-HealthJoyAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HealthJoyAppTests-umbrella.h"; sourceTree = "<group>"; };
+		61C99CD430D975B1231E2745BF279F55 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
+		633EB22F0A0D4650811B4A4BE985056F /* Pods-HealthJoyApp-HealthJoyAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthJoyApp-HealthJoyAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		63B7C48BE4FFDC740117D6E50D767BB5 /* Pods-HealthJoyApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthJoyApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		645388A5EDB7EE571C3CC60A9B6AFA17 /* Pods-HealthJoyApp-HealthJoyAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HealthJoyApp-HealthJoyAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		661F8B3B4E7CBA7E28A52CB34E67CA5C /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
+		6820DD5F4CD9203C7864BC75CE77A737 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
+		69C4225DA0638A36A2A409D832426A77 /* Gifu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gifu-umbrella.h"; sourceTree = "<group>"; };
+		6D38A477AA1B85C71DF7DED21F4F3148 /* Gifu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gifu-prefix.pch"; sourceTree = "<group>"; };
+		733011209F84282B885865F00956FDFB /* Pods-HealthJoyApp-HealthJoyAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthJoyApp-HealthJoyAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		755BAE21864890B8B56B9DE0B7B8ED3A /* Pods-HealthJoyApp-HealthJoyAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HealthJoyApp-HealthJoyAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		7A9E96ABAB17ED8205247B0FE1A43A55 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
+		7C413E46AC2A1CC1D40F6724A02F39E1 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
+		80DC8AEEFC31F257F685A0D81DC97073 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		82C51760A0BF7FF35912C1D1FCCAF3D4 /* Pods-HealthJoyApp-HealthJoyAppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HealthJoyApp-HealthJoyAppUITests"; path = Pods_HealthJoyApp_HealthJoyAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A08BA9A285EAFE50BCC8F6863AF007 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		8AE73D98EF43E9E8833B94CF00D5F75F /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		8C4BB81B70013BDE8ECEF557D52435CB /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		91050DE49EC9D651C754DE8D00F3C251 /* ImageSourceHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageSourceHelpers.swift; path = Sources/Gifu/Helpers/ImageSourceHelpers.swift; sourceTree = "<group>"; };
+		92AA1F90D5E5A169992C0C9E7C1AB276 /* Gifu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Gifu.h; path = Sources/Gifu.h; sourceTree = "<group>"; };
+		977408FA52751A32A143EA91D0F41753 /* Pods-HealthJoyApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HealthJoyApp-dummy.m"; sourceTree = "<group>"; };
+		9C8B1280CD940056CDD6E5325E3F3969 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1AF06B3565DBEFD9CC255B7AA942093 /* Gifu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Gifu.modulemap; sourceTree = "<group>"; };
+		A765F0232B1E0A5A8E3C6C247D387E8A /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		A7DF5E9B3CAE2C75882E761B56D971A5 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
+		B002CDA0E4B57403393DD2DE54F90118 /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
+		B4F3B609373CA836DA535E28F0DE9E76 /* Pods-HealthJoyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthJoyApp.release.xcconfig"; sourceTree = "<group>"; };
+		B5912E9EAC465F259B901EAE1846635B /* Pods-HealthJoyAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthJoyAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B7CE63C09243071CB6399B4D463A84D6 /* Pods-HealthJoyAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthJoyAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC2FA85540762B4479C0FC72542A44D6 /* AnimatedFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedFrame.swift; path = Sources/Gifu/Classes/AnimatedFrame.swift; sourceTree = "<group>"; };
+		BC9873C382877BF6FB9C9F74F66CC5C7 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
+		BDE514A2C12FD97AA241A7A2F75CE7B6 /* UIImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageView.swift; path = Sources/Gifu/Extensions/UIImageView.swift; sourceTree = "<group>"; };
+		BF5446760BD17EE70B103F5A3329EE2B /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		C2C3C00680B6D9D932AADEDB113A557F /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
+		C2D8CDC8A3F1352BC2BA9E1745B41480 /* Gifu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gifu.debug.xcconfig; sourceTree = "<group>"; };
+		C3ECC9C11C42123581AD5DDE029DA4A6 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
+		C46890C79B544B46255F30F83E344117 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		CAB7359B50F9F9683B4555ACA5FBE8B5 /* Pods-HealthJoyApp-HealthJoyAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthJoyApp-HealthJoyAppUITests-Info.plist"; sourceTree = "<group>"; };
+		CD54FBB3D1AB8D0908328D60D4EC2ABE /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
+		D6D0746BE7D9D1A80297044A6C761B1A /* Pods-HealthJoyAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthJoyAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D85A85561DE6393FEE11E5F19CC62321 /* Pods-HealthJoyApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthJoyApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		E1B6E0A40BA09ABE4F361547F63E91E4 /* Gifu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Gifu-Info.plist"; sourceTree = "<group>"; };
+		E4426F598E8AC0B2720CB296E57AF2E2 /* Pods-HealthJoyAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthJoyAppTests-Info.plist"; sourceTree = "<group>"; };
+		F057F004A9180C9E06B8F1F40C2454B0 /* Pods-HealthJoyApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HealthJoyApp-umbrella.h"; sourceTree = "<group>"; };
+		F0AD70E352A934A7C0B5AFD9B6547ABE /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		F22BE8159AC552A3CEFC66442A707983 /* Pods-HealthJoyAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HealthJoyAppTests-dummy.m"; sourceTree = "<group>"; };
+		F77D77810B7AD4A112A1255428A33E2F /* Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = Sources/Gifu/Classes/Animator.swift; sourceTree = "<group>"; };
+		F7A331D91498C9F74C71A97618C9F3DF /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
+		FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FE35BBF835C5BF07B5A47746312AA92C /* UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = Sources/Gifu/Extensions/UIImage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15DC142A7EE833251AA37FC8E2B8E01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B068137A8925891446203B5D3D6A4ED /* CFNetwork.framework in Frameworks */,
+				0F4037DBF307AC8058BD0A3D35C7E7E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70A86480E27614AE212302297EDABAE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F26C7C6E06A0ED86D0F1CEB5A1518A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2D9E040A0B5AFE8427490F82CEF061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4CC6217F1A8CA84673592E66989551 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F2ADBDE74E70F2BED5503A82B8C5D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D3F3FD55A479556431E277334C57DF6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12CF725437F5A667E1BF4D9C52A34F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B31A28677A93591820C93F4E8BC8A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E6E3C9B2BDD3AF8C06B934BB8EE71BE /* Pods-HealthJoyApp */ = {
+			isa = PBXGroup;
+			children = (
+				29EC2A43A6C99F4B1AE6489A48D5FC2A /* Pods-HealthJoyApp.modulemap */,
+				63B7C48BE4FFDC740117D6E50D767BB5 /* Pods-HealthJoyApp-acknowledgements.markdown */,
+				D85A85561DE6393FEE11E5F19CC62321 /* Pods-HealthJoyApp-acknowledgements.plist */,
+				977408FA52751A32A143EA91D0F41753 /* Pods-HealthJoyApp-dummy.m */,
+				088C1376148B60F90F5B142B50BAB898 /* Pods-HealthJoyApp-frameworks.sh */,
+				447F6FEA7E31F0AE96EE4D14EF5BE985 /* Pods-HealthJoyApp-Info.plist */,
+				F057F004A9180C9E06B8F1F40C2454B0 /* Pods-HealthJoyApp-umbrella.h */,
+				48ABF5C39A7F8272451767011D6715D5 /* Pods-HealthJoyApp.debug.xcconfig */,
+				B4F3B609373CA836DA535E28F0DE9E76 /* Pods-HealthJoyApp.release.xcconfig */,
+			);
+			name = "Pods-HealthJoyApp";
+			path = "Target Support Files/Pods-HealthJoyApp";
+			sourceTree = "<group>";
+		};
+		3204331F0157479D4BC3F05B2B72EF56 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1AF06B3565DBEFD9CC255B7AA942093 /* Gifu.modulemap */,
+				006D7477DF77ACE9FBFE8A8CC5EBF483 /* Gifu-dummy.m */,
+				E1B6E0A40BA09ABE4F361547F63E91E4 /* Gifu-Info.plist */,
+				6D38A477AA1B85C71DF7DED21F4F3148 /* Gifu-prefix.pch */,
+				69C4225DA0638A36A2A409D832426A77 /* Gifu-umbrella.h */,
+				C2D8CDC8A3F1352BC2BA9E1745B41480 /* Gifu.debug.xcconfig */,
+				1C6BA24C66E4505E7174E93CEF0FC48E /* Gifu.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Gifu";
+			sourceTree = "<group>";
+		};
+		61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */,
+				FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		63D2DF452C38C57B6DD58625734C5DFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
+				40E5F8D9277E714962AFA02550F15F8A /* Gifu */,
+				5B8665037B8DA63C84CDA3E69F605E1E /* Pods-HealthJoyApp */,
+				82C51760A0BF7FF35912C1D1FCCAF3D4 /* Pods-HealthJoyApp-HealthJoyAppUITests */,
+				3763FA58AABEBEB476F4B558E1DB95E0 /* Pods-HealthJoyAppTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		821C468E8CBC2C4EB69915590CC184F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF5446760BD17EE70B103F5A3329EE2B /* Alamofire.modulemap */,
+				00A45050BA11E6D99F27BC7A42C9E1C7 /* Alamofire-dummy.m */,
+				85A08BA9A285EAFE50BCC8F6863AF007 /* Alamofire-Info.plist */,
+				4C0296F4823D6CDC3033C52D555699C6 /* Alamofire-prefix.pch */,
+				9C8B1280CD940056CDD6E5325E3F3969 /* Alamofire-umbrella.h */,
+				4F22875C3549E95EAC690D84CE8F49A1 /* Alamofire.debug.xcconfig */,
+				02A86CD34FD4AC6933D3FE2DACBFA4DB /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		980D82FF149CF06CC0D9661F0DE3EBAD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E6E3C9B2BDD3AF8C06B934BB8EE71BE /* Pods-HealthJoyApp */,
+				A0ED04C83960BB8FED50004B953E690A /* Pods-HealthJoyApp-HealthJoyAppUITests */,
+				B9ADDFD8EB5816E909CD185CDBA2F63C /* Pods-HealthJoyAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A0ED04C83960BB8FED50004B953E690A /* Pods-HealthJoyApp-HealthJoyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				365A5A5DF6DE72938AA8685D0614B970 /* Pods-HealthJoyApp-HealthJoyAppUITests.modulemap */,
+				036EE191B6953D142E3BFB61832F8635 /* Pods-HealthJoyApp-HealthJoyAppUITests-acknowledgements.markdown */,
+				633EB22F0A0D4650811B4A4BE985056F /* Pods-HealthJoyApp-HealthJoyAppUITests-acknowledgements.plist */,
+				13AFD9AE435816F101CB06B1DDF7E3D4 /* Pods-HealthJoyApp-HealthJoyAppUITests-dummy.m */,
+				645388A5EDB7EE571C3CC60A9B6AFA17 /* Pods-HealthJoyApp-HealthJoyAppUITests-frameworks.sh */,
+				CAB7359B50F9F9683B4555ACA5FBE8B5 /* Pods-HealthJoyApp-HealthJoyAppUITests-Info.plist */,
+				755BAE21864890B8B56B9DE0B7B8ED3A /* Pods-HealthJoyApp-HealthJoyAppUITests-umbrella.h */,
+				1794DF7DA19D94E5F7ED9723B28E482D /* Pods-HealthJoyApp-HealthJoyAppUITests.debug.xcconfig */,
+				733011209F84282B885865F00956FDFB /* Pods-HealthJoyApp-HealthJoyAppUITests.release.xcconfig */,
+			);
+			name = "Pods-HealthJoyApp-HealthJoyAppUITests";
+			path = "Target Support Files/Pods-HealthJoyApp-HealthJoyAppUITests";
+			sourceTree = "<group>";
+		};
+		B9ADDFD8EB5816E909CD185CDBA2F63C /* Pods-HealthJoyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				143133CA9B9CC0BC41B2D5A9208E1822 /* Pods-HealthJoyAppTests.modulemap */,
+				D6D0746BE7D9D1A80297044A6C761B1A /* Pods-HealthJoyAppTests-acknowledgements.markdown */,
+				B5912E9EAC465F259B901EAE1846635B /* Pods-HealthJoyAppTests-acknowledgements.plist */,
+				F22BE8159AC552A3CEFC66442A707983 /* Pods-HealthJoyAppTests-dummy.m */,
+				E4426F598E8AC0B2720CB296E57AF2E2 /* Pods-HealthJoyAppTests-Info.plist */,
+				60C2035EB8A2A1712BB15E16F2FFED74 /* Pods-HealthJoyAppTests-umbrella.h */,
+				B7CE63C09243071CB6399B4D463A84D6 /* Pods-HealthJoyAppTests.debug.xcconfig */,
+				06964E5D952EF2F11BCD104079B65DED /* Pods-HealthJoyAppTests.release.xcconfig */,
+			);
+			name = "Pods-HealthJoyAppTests";
+			path = "Target Support Files/Pods-HealthJoyAppTests";
+			sourceTree = "<group>";
+		};
+		C532E2A2114B32A01EB6CFE8E6226C3B /* Gifu */ = {
+			isa = PBXGroup;
+			children = (
+				BC2FA85540762B4479C0FC72542A44D6 /* AnimatedFrame.swift */,
+				F77D77810B7AD4A112A1255428A33E2F /* Animator.swift */,
+				51C23AF08AEE50F45A5B3C7D18103729 /* Array.swift */,
+				5118D77FE1C0CCDF611B90FBFDF26C34 /* CGSize.swift */,
+				2DC7E2833E57D49300966E3239824FA0 /* FrameStore.swift */,
+				54754266B09265EAD3082F13A46FBDEF /* GIFAnimatable.swift */,
+				054ECF35413FC50AECAACEF9125E4960 /* GIFImageView.swift */,
+				92AA1F90D5E5A169992C0C9E7C1AB276 /* Gifu.h */,
+				91050DE49EC9D651C754DE8D00F3C251 /* ImageSourceHelpers.swift */,
+				FE35BBF835C5BF07B5A47746312AA92C /* UIImage.swift */,
+				BDE514A2C12FD97AA241A7A2F75CE7B6 /* UIImageView.swift */,
+				3204331F0157479D4BC3F05B2B72EF56 /* Support Files */,
+			);
+			name = Gifu;
+			path = Gifu;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				FBF76E57427D032169F920EF7DB26974 /* Pods */,
+				63D2DF452C38C57B6DD58625734C5DFC /* Products */,
+				980D82FF149CF06CC0D9661F0DE3EBAD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E67B5CE0B65D9DE138DFED4581A2FDA0 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				57FCB62A4BCFCFC298D863C401403B37 /* AFError.swift */,
+				433EEA876F187B95ED3C2FEE26C4DD78 /* Alamofire.swift */,
+				C2C3C00680B6D9D932AADEDB113A557F /* AlamofireExtended.swift */,
+				CD54FBB3D1AB8D0908328D60D4EC2ABE /* AuthenticationInterceptor.swift */,
+				6820DD5F4CD9203C7864BC75CE77A737 /* CachedResponseHandler.swift */,
+				F7A331D91498C9F74C71A97618C9F3DF /* Combine.swift */,
+				3713765C6AE18BA8BA161622D9CE2E74 /* Concurrency.swift */,
+				8AE73D98EF43E9E8833B94CF00D5F75F /* DispatchQueue+Alamofire.swift */,
+				7A9E96ABAB17ED8205247B0FE1A43A55 /* EventMonitor.swift */,
+				661F8B3B4E7CBA7E28A52CB34E67CA5C /* HTTPHeaders.swift */,
+				530C20F5A68607BE8D58DE5049B8A979 /* HTTPMethod.swift */,
+				54D6AEAFFC1077A4716F6592EC704A5E /* MultipartFormData.swift */,
+				7C413E46AC2A1CC1D40F6724A02F39E1 /* MultipartUpload.swift */,
+				C46890C79B544B46255F30F83E344117 /* NetworkReachabilityManager.swift */,
+				0AFCDCAB9559BF43364697AB4045EA3E /* Notifications.swift */,
+				5C68F5D6E2DC2F937ABF1188A9A6BE62 /* OperationQueue+Alamofire.swift */,
+				2CDF26843D34E8709A13D3A0D2281358 /* ParameterEncoder.swift */,
+				56C921AD766322E36DE450A89B79C9C9 /* ParameterEncoding.swift */,
+				C3ECC9C11C42123581AD5DDE029DA4A6 /* Protected.swift */,
+				BC9873C382877BF6FB9C9F74F66CC5C7 /* RedirectHandler.swift */,
+				23CFFC13643F72C8B963DFB93C7324B1 /* Request.swift */,
+				287B322097C0374D6CD9B1132C4FD69D /* RequestInterceptor.swift */,
+				0968E8B9DDC29F32DEBE2148AC4BACD0 /* RequestTaskMap.swift */,
+				A765F0232B1E0A5A8E3C6C247D387E8A /* Response.swift */,
+				174D2C1FF5085222AA851B6AB0545E91 /* ResponseSerialization.swift */,
+				B002CDA0E4B57403393DD2DE54F90118 /* Result+Alamofire.swift */,
+				3EE49F3D2199BCE707FF50B1B8FE7FB3 /* RetryPolicy.swift */,
+				61C99CD430D975B1231E2745BF279F55 /* ServerTrustEvaluation.swift */,
+				3F7A566A9E8CCEF21B4D0E1FD5B36AB1 /* Session.swift */,
+				F0AD70E352A934A7C0B5AFD9B6547ABE /* SessionDelegate.swift */,
+				0EB232CF18C49A9B7975AE5E154796F0 /* StringEncoding+Alamofire.swift */,
+				A7DF5E9B3CAE2C75882E761B56D971A5 /* URLConvertible+URLRequestConvertible.swift */,
+				30631F357598DC2BBC58EB0A85B5B786 /* URLEncodedFormEncoder.swift */,
+				39166EE7EC36411C56AD1EC40B090B18 /* URLRequest+Alamofire.swift */,
+				80DC8AEEFC31F257F685A0D81DC97073 /* URLSessionConfiguration+Alamofire.swift */,
+				8C4BB81B70013BDE8ECEF557D52435CB /* Validation.swift */,
+				821C468E8CBC2C4EB69915590CC184F5 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		FBF76E57427D032169F920EF7DB26974 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E67B5CE0B65D9DE138DFED4581A2FDA0 /* Alamofire */,
+				C532E2A2114B32A01EB6CFE8E6226C3B /* Gifu */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2484C80177471FF4FDD6D389E5A0DEB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E81172E48C3EAB14F298FCA15911C83 /* Gifu.h in Headers */,
+				A35DCDCE5AD53594EEE4A8E89F91CFF8 /* Gifu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E6F7B26483BE3BC9393C6C05D32424 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005B319B494ED2DAA239B9939A504DFC /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88204AD62E08C1D602B239EF6B9D0327 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7886594CB48D49802E9322DF01F31BCD /* Pods-HealthJoyApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC130779A4D9DCECA43D9BB75FA5D1A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C364CB7021D4CBC68B881ED4535642 /* Pods-HealthJoyAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD781BECC4EF4B6697DB233F74D66127 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69E0DE22D98E9143F9EE0FDC7951850 /* Pods-HealthJoyApp-HealthJoyAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2841A9FA6EEAF3B61AE208F82C6DBFE3 /* Pods-HealthJoyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC83F4F3A06C5B65029823CE77653E29 /* Build configuration list for PBXNativeTarget "Pods-HealthJoyAppTests" */;
+			buildPhases = (
+				CC130779A4D9DCECA43D9BB75FA5D1A3 /* Headers */,
+				4AF774B043DF5E698C2FAEDAE27313BA /* Sources */,
+				70A86480E27614AE212302297EDABAE0 /* Frameworks */,
+				C0EA0A472A29EA8BD20C8C3BDC27A91E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB7286D6FAABA67040D0A4E9F5B74819 /* PBXTargetDependency */,
+			);
+			name = "Pods-HealthJoyAppTests";
+			productName = Pods_HealthJoyAppTests;
+			productReference = 3763FA58AABEBEB476F4B558E1DB95E0 /* Pods-HealthJoyAppTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D046B41292DC9302A522A8D13BE186D /* Pods-HealthJoyApp-HealthJoyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288409FA1415A55D0018BF6C454E8B20 /* Build configuration list for PBXNativeTarget "Pods-HealthJoyApp-HealthJoyAppUITests" */;
+			buildPhases = (
+				FD781BECC4EF4B6697DB233F74D66127 /* Headers */,
+				35E8AEB9FAD01AF91F63C91621EC3110 /* Sources */,
+				93F2ADBDE74E70F2BED5503A82B8C5D2 /* Frameworks */,
+				2509D0080990B907FD911353C709A407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4775DD308AB27AF040B0001ADE961772 /* PBXTargetDependency */,
+				FDACE29FD9AF2A79F944A54A21829BBF /* PBXTargetDependency */,
+			);
+			name = "Pods-HealthJoyApp-HealthJoyAppUITests";
+			productName = Pods_HealthJoyApp_HealthJoyAppUITests;
+			productReference = 82C51760A0BF7FF35912C1D1FCCAF3D4 /* Pods-HealthJoyApp-HealthJoyAppUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		830B5AB9E16163B4A1BA339D625FE46C /* Gifu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55974C4938FA9A27C155C7081D537116 /* Build configuration list for PBXNativeTarget "Gifu" */;
+			buildPhases = (
+				2484C80177471FF4FDD6D389E5A0DEB2 /* Headers */,
+				7746525FDCCB87001A3DB6F73FE62095 /* Sources */,
+				A12CF725437F5A667E1BF4D9C52A34F4 /* Frameworks */,
+				5C1336EAE8A14EFE3747028820EC9674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gifu;
+			productName = Gifu;
+			productReference = 40E5F8D9277E714962AFA02550F15F8A /* Gifu */;
+			productType = "com.apple.product-type.framework";
+		};
+		837095C0F8D67E73884D343A20F9AEFB /* Pods-HealthJoyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88883C193B1BA53E5ABE3AB1753DCC97 /* Build configuration list for PBXNativeTarget "Pods-HealthJoyApp" */;
+			buildPhases = (
+				88204AD62E08C1D602B239EF6B9D0327 /* Headers */,
+				B7979434E96F8A5B60EE0BBD485E4846 /* Sources */,
+				8A2D9E040A0B5AFE8427490F82CEF061 /* Frameworks */,
+				9AE88CE45B831BFACAA3401ABBFE6453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				767E2ADD6FA91394DBCF9159D80FF223 /* PBXTargetDependency */,
+				788BAB532AFAC3ABBE4F7459E4F9FF6E /* PBXTargetDependency */,
+			);
+			name = "Pods-HealthJoyApp";
+			productName = Pods_HealthJoyApp;
+			productReference = 5B8665037B8DA63C84CDA3E69F605E1E /* Pods-HealthJoyApp */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A212264186B8822192F9C369D7DE4BB /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				52E6F7B26483BE3BC9393C6C05D32424 /* Headers */,
+				F5D2A45FBA06D86A537CB441D5BF4FF4 /* Sources */,
+				15DC142A7EE833251AA37FC8E2B8E01F /* Frameworks */,
+				E9D4145FA41F60FFAB33A07796D9ED97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 63D2DF452C38C57B6DD58625734C5DFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				830B5AB9E16163B4A1BA339D625FE46C /* Gifu */,
+				837095C0F8D67E73884D343A20F9AEFB /* Pods-HealthJoyApp */,
+				6D046B41292DC9302A522A8D13BE186D /* Pods-HealthJoyApp-HealthJoyAppUITests */,
+				2841A9FA6EEAF3B61AE208F82C6DBFE3 /* Pods-HealthJoyAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2509D0080990B907FD911353C709A407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1336EAE8A14EFE3747028820EC9674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE88CE45B831BFACAA3401ABBFE6453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EA0A472A29EA8BD20C8C3BDC27A91E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D4145FA41F60FFAB33A07796D9ED97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35E8AEB9FAD01AF91F63C91621EC3110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88E18922997843702001AAC645BFD1B /* Pods-HealthJoyApp-HealthJoyAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF774B043DF5E698C2FAEDAE27313BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F708AECDA3DAF41CD72DF3C50B7A4E13 /* Pods-HealthJoyAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7746525FDCCB87001A3DB6F73FE62095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DCA114C38CB4534E2F255FA7D947C89 /* AnimatedFrame.swift in Sources */,
+				979756D4DB9441CE42439784AE179907 /* Animator.swift in Sources */,
+				903808438D3116C07196D1AC78CE06E8 /* Array.swift in Sources */,
+				0F1B92DB03D56860EB1188A22F400C7D /* CGSize.swift in Sources */,
+				1E95E35B5189798873B416F0D7EBC5D1 /* FrameStore.swift in Sources */,
+				6BDE6348880B6C64C34A53DC75D0A432 /* GIFAnimatable.swift in Sources */,
+				4E0945227E4DF90F804B35949BC4A589 /* GIFImageView.swift in Sources */,
+				F6B01E693132F36190B0CC43BAC43F53 /* Gifu-dummy.m in Sources */,
+				20908FAD00F0AC1FD500B1D476FCFDE1 /* ImageSourceHelpers.swift in Sources */,
+				48AA0B84D04D9D805AE5A92F252AF11F /* UIImage.swift in Sources */,
+				C56D8064D2EB57557C642E262F4E696C /* UIImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7979434E96F8A5B60EE0BBD485E4846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1712D1CBCA7088C76986996216593FD /* Pods-HealthJoyApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D2A45FBA06D86A537CB441D5BF4FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EA90FBF83350C49E6EF6C8A98D6F00 /* AFError.swift in Sources */,
+				F17A4CA4664CABB331D39FE902E06843 /* Alamofire.swift in Sources */,
+				55AABB1FB38F61A3369ACC555FF3046D /* Alamofire-dummy.m in Sources */,
+				1EE44196E7BCE57AD96A2C751651EF40 /* AlamofireExtended.swift in Sources */,
+				7483E5327027263F7E4B94A2997191C4 /* AuthenticationInterceptor.swift in Sources */,
+				2CBE3651CA006E19F5D64A2DE9B9A028 /* CachedResponseHandler.swift in Sources */,
+				46A64A43AFA057B6B63C8F0C12F509B4 /* Combine.swift in Sources */,
+				9C9030DEDB0DF955B16FE08C50892D57 /* Concurrency.swift in Sources */,
+				EEC150B66BCCD6C80FDA7E4D1975166B /* DispatchQueue+Alamofire.swift in Sources */,
+				CEBFFEED65D877702B2F36102528CF6D /* EventMonitor.swift in Sources */,
+				7E02F5B62BE00E97847DF549FFED2490 /* HTTPHeaders.swift in Sources */,
+				D6B4751CED01D53E4A1B6A571AAA2F83 /* HTTPMethod.swift in Sources */,
+				7FE695DA8EE7FF1286556E06B692009B /* MultipartFormData.swift in Sources */,
+				E9B4C89E7EB3B27D46AFCA452C3D426F /* MultipartUpload.swift in Sources */,
+				A29100AA1876DDEFF6F54694A51FDB0E /* NetworkReachabilityManager.swift in Sources */,
+				2CCD13099063CD560E3067BD132914FA /* Notifications.swift in Sources */,
+				E54654D504A42C24F284A68F87F7671D /* OperationQueue+Alamofire.swift in Sources */,
+				99D058E53EFEE3AC4857CDE3DBA5C004 /* ParameterEncoder.swift in Sources */,
+				68FB2DCB4C77DBCAF9A6037E470F2BDE /* ParameterEncoding.swift in Sources */,
+				A53BDE589BDD6483F3EEDCE5EA1DCCD3 /* Protected.swift in Sources */,
+				045DE6EBF9B2F63F60F5BE60C1198E06 /* RedirectHandler.swift in Sources */,
+				B3658C29BBDE1033F6269A92E612CB30 /* Request.swift in Sources */,
+				DD902FE8D6824681C929D028655AE121 /* RequestInterceptor.swift in Sources */,
+				DA34899BEF0668D76CBCE8C4CE47B97B /* RequestTaskMap.swift in Sources */,
+				75966A9262648D4647D764E3E76BC6AC /* Response.swift in Sources */,
+				824D816B1EE404F2DD400EE678695CBE /* ResponseSerialization.swift in Sources */,
+				04A896288CE3A59B530250337A5F8362 /* Result+Alamofire.swift in Sources */,
+				33A7D0F2D03004CE256A75E03DF33C70 /* RetryPolicy.swift in Sources */,
+				B704B198B9B520D449260877E300D821 /* ServerTrustEvaluation.swift in Sources */,
+				81B8D2B7CEB25C2448B0BC9B33591A65 /* Session.swift in Sources */,
+				1976BB7D7E26A12E29283E71154B63B3 /* SessionDelegate.swift in Sources */,
+				7F1BB526AAE3ECDCE90127D9D0E10261 /* StringEncoding+Alamofire.swift in Sources */,
+				8D75FC8D7476C9674234F39F1A820D8C /* URLConvertible+URLRequestConvertible.swift in Sources */,
+				7930C94414B4C661867AC4FBE82E996C /* URLEncodedFormEncoder.swift in Sources */,
+				BC0ECA8F22DEDE8886E189CD0EAA1197 /* URLRequest+Alamofire.swift in Sources */,
+				808C960C82D708FC1A42C581D6CB4940 /* URLSessionConfiguration+Alamofire.swift in Sources */,
+				3C4059621E23842C19D4EB5D35B41989 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4775DD308AB27AF040B0001ADE961772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = F882967FF8396A418951AB92C4604EC6 /* PBXContainerItemProxy */;
+		};
+		767E2ADD6FA91394DBCF9159D80FF223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = DDD266972C87A3EE7540800CB3AA393A /* PBXContainerItemProxy */;
+		};
+		788BAB532AFAC3ABBE4F7459E4F9FF6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gifu;
+			target = 830B5AB9E16163B4A1BA339D625FE46C /* Gifu */;
+			targetProxy = 5E9CB02892DB802323D1DD82D1823C35 /* PBXContainerItemProxy */;
+		};
+		DB7286D6FAABA67040D0A4E9F5B74819 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HealthJoyApp";
+			target = 837095C0F8D67E73884D343A20F9AEFB /* Pods-HealthJoyApp */;
+			targetProxy = FA98CE7DDBA4946FCE85A300D6AB8DD1 /* PBXContainerItemProxy */;
+		};
+		FDACE29FD9AF2A79F944A54A21829BBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gifu;
+			target = 830B5AB9E16163B4A1BA339D625FE46C /* Gifu */;
+			targetProxy = 570F84F58F38B5752E998CE9A5029038 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		481C19137151C39F68D4E32C5888D7DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 733011209F84282B885865F00956FDFB /* Pods-HealthJoyApp-HealthJoyAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HealthJoyApp-HealthJoyAppUITests/Pods-HealthJoyApp-HealthJoyAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HealthJoyApp-HealthJoyAppUITests/Pods-HealthJoyApp-HealthJoyAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		528A9F25E46530B019673CB4AFDFAE37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C6BA24C66E4505E7174E93CEF0FC48E /* Gifu.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Gifu/Gifu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gifu/Gifu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Gifu/Gifu.modulemap";
+				PRODUCT_MODULE_NAME = Gifu;
+				PRODUCT_NAME = Gifu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8AE864807E65997B783838C11CDE15A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2D8CDC8A3F1352BC2BA9E1745B41480 /* Gifu.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Gifu/Gifu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gifu/Gifu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Gifu/Gifu.modulemap";
+				PRODUCT_MODULE_NAME = Gifu;
+				PRODUCT_NAME = Gifu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90A4588B06F8745E7FCD1B00204D6241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A86CD34FD4AC6933D3FE2DACBFA4DB /* Alamofire.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9E98C04A5FA16D8AD5D48C1861179497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F22875C3549E95EAC690D84CE8F49A1 /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6FEC1C9D999E2745DC6E23F092CCBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4F3B609373CA836DA535E28F0DE9E76 /* Pods-HealthJoyApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HealthJoyApp/Pods-HealthJoyApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HealthJoyApp/Pods-HealthJoyApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B40523A9FB5E771A32DFA94F832ED743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06964E5D952EF2F11BCD104079B65DED /* Pods-HealthJoyAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HealthJoyAppTests/Pods-HealthJoyAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HealthJoyAppTests/Pods-HealthJoyAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5FBDC22570C0EA02BE4085666B43625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1794DF7DA19D94E5F7ED9723B28E482D /* Pods-HealthJoyApp-HealthJoyAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HealthJoyApp-HealthJoyAppUITests/Pods-HealthJoyApp-HealthJoyAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HealthJoyApp-HealthJoyAppUITests/Pods-HealthJoyApp-HealthJoyAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D8597ADD02541E808E04A04DFBA44065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7CE63C09243071CB6399B4D463A84D6 /* Pods-HealthJoyAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HealthJoyAppTests/Pods-HealthJoyAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HealthJoyAppTests/Pods-HealthJoyAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF7587242E4171A395CE3872AC58F10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48ABF5C39A7F8272451767011D6715D5 /* Pods-HealthJoyApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HealthJoyApp/Pods-HealthJoyApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HealthJoyApp/Pods-HealthJoyApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		288409FA1415A55D0018BF6C454E8B20 /* Build configuration list for PBXNativeTarget "Pods-HealthJoyApp-HealthJoyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5FBDC22570C0EA02BE4085666B43625 /* Debug */,
+				481C19137151C39F68D4E32C5888D7DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55974C4938FA9A27C155C7081D537116 /* Build configuration list for PBXNativeTarget "Gifu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE864807E65997B783838C11CDE15A6 /* Debug */,
+				528A9F25E46530B019673CB4AFDFAE37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88883C193B1BA53E5ABE3AB1753DCC97 /* Build configuration list for PBXNativeTarget "Pods-HealthJoyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7587242E4171A395CE3872AC58F10B /* Debug */,
+				A6FEC1C9D999E2745DC6E23F092CCBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A212264186B8822192F9C369D7DE4BB /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E98C04A5FA16D8AD5D48C1861179497 /* Debug */,
+				90A4588B06F8745E7FCD1B00204D6241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC83F4F3A06C5B65029823CE77653E29 /* Build configuration list for PBXNativeTarget "Pods-HealthJoyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8597ADD02541E808E04A04DFBA44065 /* Debug */,
+				B40523A9FB5E771A32DFA94F832ED743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

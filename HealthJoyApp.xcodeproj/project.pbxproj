@@ -1,0 +1,905 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BB569CE70787EEAA2B5C523 /* Pods_HealthJoyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8503D40A98C8F27B8D8F1E /* Pods_HealthJoyApp.framework */; };
+		50181FDD3534E175878575E5 /* Pods_HealthJoyApp_HealthJoyAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD6BA1CAAC0C11F68BA88C83 /* Pods_HealthJoyApp_HealthJoyAppUITests.framework */; };
+		534CF92B28637B2B001A69E9 /* EntityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534CF92A28637B2B001A69E9 /* EntityCell.swift */; };
+		534CF92D28637B46001A69E9 /* EntityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 534CF92C28637B46001A69E9 /* EntityCell.xib */; };
+		534CF93028637BA1001A69E9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534CF92F28637BA1001A69E9 /* Constants.swift */; };
+		53779DF42867D28D006B1050 /* ImageOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53779DF32867D28D006B1050 /* ImageOperation.swift */; };
+		53D4797A2863691F00B98682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D479792863691F00B98682 /* AppDelegate.swift */; };
+		53D4797C2863691F00B98682 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D4797B2863691F00B98682 /* SceneDelegate.swift */; };
+		53D4797E2863691F00B98682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D4797D2863691F00B98682 /* ViewController.swift */; };
+		53D479832863692100B98682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D479822863692100B98682 /* Assets.xcassets */; };
+		53D479862863692100B98682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53D479842863692100B98682 /* LaunchScreen.storyboard */; };
+		53D479912863692100B98682 /* HealthJoyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D479902863692100B98682 /* HealthJoyAppTests.swift */; };
+		53D4799B2863692100B98682 /* HealthJoyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D4799A2863692100B98682 /* HealthJoyAppUITests.swift */; };
+		53D4799D2863692100B98682 /* HealthJoyAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D4799C2863692100B98682 /* HealthJoyAppUITestsLaunchTests.swift */; };
+		53D479AB28636F0C00B98682 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D479AA28636F0C00B98682 /* BaseService.swift */; };
+		53D479AF2863729500B98682 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D479AE2863729500B98682 /* Coordinator.swift */; };
+		53D479B1286372A500B98682 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D479B0286372A500B98682 /* AppCoordinator.swift */; };
+		53D479B3286372C100B98682 /* HomeScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D479B2286372C100B98682 /* HomeScreenCoordinator.swift */; };
+		53D479B7286372FE00B98682 /* HomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D479B6286372FE00B98682 /* HomeScreenVC.swift */; };
+		53D479B92863730600B98682 /* HomeScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53D479B82863730600B98682 /* HomeScreenVC.xib */; };
+		53D479BC286378C800B98682 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D479BB286378C800B98682 /* SearchVC.swift */; };
+		53D479BE286378D300B98682 /* SearchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53D479BD286378D300B98682 /* SearchVC.xib */; };
+		53D479C0286378FD00B98682 /* SearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D479BF286378FD00B98682 /* SearchCoordinator.swift */; };
+		53EF33B52864CB700042500D /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EF33B42864CB700042500D /* SearchService.swift */; };
+		53EF33B82864D3600042500D /* GiphyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EF33B72864D3600042500D /* GiphyObject.swift */; };
+		53EF33BA2865FF060042500D /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EF33B92865FF060042500D /* SearchModel.swift */; };
+		8A3E0E055A57C72C53A5F0B4 /* Pods_HealthJoyAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBA30DF9C028603036CE6BE /* Pods_HealthJoyAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53D4798D2863692100B98682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53D4796E2863691F00B98682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53D479752863691F00B98682;
+			remoteInfo = HealthJoyApp;
+		};
+		53D479972863692100B98682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53D4796E2863691F00B98682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53D479752863691F00B98682;
+			remoteInfo = HealthJoyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F8503D40A98C8F27B8D8F1E /* Pods_HealthJoyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthJoyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		534CF92A28637B2B001A69E9 /* EntityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityCell.swift; sourceTree = "<group>"; };
+		534CF92C28637B46001A69E9 /* EntityCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EntityCell.xib; sourceTree = "<group>"; };
+		534CF92F28637BA1001A69E9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		53779DF32867D28D006B1050 /* ImageOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOperation.swift; sourceTree = "<group>"; };
+		53D479762863691F00B98682 /* HealthJoyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthJoyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D479792863691F00B98682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53D4797B2863691F00B98682 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		53D4797D2863691F00B98682 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53D479822863692100B98682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53D479852863692100B98682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53D479872863692100B98682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53D4798C2863692100B98682 /* HealthJoyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthJoyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D479902863692100B98682 /* HealthJoyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthJoyAppTests.swift; sourceTree = "<group>"; };
+		53D479962863692100B98682 /* HealthJoyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthJoyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D4799A2863692100B98682 /* HealthJoyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthJoyAppUITests.swift; sourceTree = "<group>"; };
+		53D4799C2863692100B98682 /* HealthJoyAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthJoyAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		53D479AA28636F0C00B98682 /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		53D479AE2863729500B98682 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		53D479B0286372A500B98682 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		53D479B2286372C100B98682 /* HomeScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenCoordinator.swift; sourceTree = "<group>"; };
+		53D479B6286372FE00B98682 /* HomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVC.swift; sourceTree = "<group>"; };
+		53D479B82863730600B98682 /* HomeScreenVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeScreenVC.xib; sourceTree = "<group>"; };
+		53D479BB286378C800B98682 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		53D479BD286378D300B98682 /* SearchVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchVC.xib; sourceTree = "<group>"; };
+		53D479BF286378FD00B98682 /* SearchCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCoordinator.swift; sourceTree = "<group>"; };
+		53EF33B42864CB700042500D /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		53EF33B72864D3600042500D /* GiphyObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyObject.swift; sourceTree = "<group>"; };
+		53EF33B92865FF060042500D /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		76A5D18D5AB2D9B4285C9A3F /* Pods-HealthJoyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthJoyApp.debug.xcconfig"; path = "Target Support Files/Pods-HealthJoyApp/Pods-HealthJoyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8DBA30DF9C028603036CE6BE /* Pods_HealthJoyAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthJoyAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD6BA1CAAC0C11F68BA88C83 /* Pods_HealthJoyApp_HealthJoyAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthJoyApp_HealthJoyAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6471F47F4960B1A8EA47162 /* Pods-HealthJoyAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthJoyAppTests.release.xcconfig"; path = "Target Support Files/Pods-HealthJoyAppTests/Pods-HealthJoyAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		DB4789A65C587CADCB5C376A /* Pods-HealthJoyAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthJoyAppTests.debug.xcconfig"; path = "Target Support Files/Pods-HealthJoyAppTests/Pods-HealthJoyAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFFA5FEE0AFECD0D2D40E26B /* Pods-HealthJoyApp-HealthJoyAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthJoyApp-HealthJoyAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-HealthJoyApp-HealthJoyAppUITests/Pods-HealthJoyApp-HealthJoyAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F28F73B3A0462E3921F32D99 /* Pods-HealthJoyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthJoyApp.release.xcconfig"; path = "Target Support Files/Pods-HealthJoyApp/Pods-HealthJoyApp.release.xcconfig"; sourceTree = "<group>"; };
+		F73EE1B41AFFA02D387BDADB /* Pods-HealthJoyApp-HealthJoyAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthJoyApp-HealthJoyAppUITests.release.xcconfig"; path = "Target Support Files/Pods-HealthJoyApp-HealthJoyAppUITests/Pods-HealthJoyApp-HealthJoyAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53D479732863691F00B98682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB569CE70787EEAA2B5C523 /* Pods_HealthJoyApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D479892863692100B98682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3E0E055A57C72C53A5F0B4 /* Pods_HealthJoyAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D479932863692100B98682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50181FDD3534E175878575E5 /* Pods_HealthJoyApp_HealthJoyAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DD53413B63EB3CBB51E41B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76A5D18D5AB2D9B4285C9A3F /* Pods-HealthJoyApp.debug.xcconfig */,
+				F28F73B3A0462E3921F32D99 /* Pods-HealthJoyApp.release.xcconfig */,
+				EFFA5FEE0AFECD0D2D40E26B /* Pods-HealthJoyApp-HealthJoyAppUITests.debug.xcconfig */,
+				F73EE1B41AFFA02D387BDADB /* Pods-HealthJoyApp-HealthJoyAppUITests.release.xcconfig */,
+				DB4789A65C587CADCB5C376A /* Pods-HealthJoyAppTests.debug.xcconfig */,
+				B6471F47F4960B1A8EA47162 /* Pods-HealthJoyAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		534CF92928637B16001A69E9 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				53779DF528692DDF006B1050 /* Cells */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		534CF92E28637B96001A69E9 /* Additional Files */ = {
+			isa = PBXGroup;
+			children = (
+				534CF92F28637BA1001A69E9 /* Constants.swift */,
+			);
+			path = "Additional Files";
+			sourceTree = "<group>";
+		};
+		53779DF528692DDF006B1050 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				534CF92A28637B2B001A69E9 /* EntityCell.swift */,
+				534CF92C28637B46001A69E9 /* EntityCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		53D4796D2863691F00B98682 = {
+			isa = PBXGroup;
+			children = (
+				53D479782863691F00B98682 /* HealthJoyApp */,
+				53D4798F2863692100B98682 /* HealthJoyAppTests */,
+				53D479992863692100B98682 /* HealthJoyAppUITests */,
+				53D479772863691F00B98682 /* Products */,
+				0DD53413B63EB3CBB51E41B0 /* Pods */,
+				FF754B5B8722D5E98E2B2F07 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53D479772863691F00B98682 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53D479762863691F00B98682 /* HealthJoyApp.app */,
+				53D4798C2863692100B98682 /* HealthJoyAppTests.xctest */,
+				53D479962863692100B98682 /* HealthJoyAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53D479782863691F00B98682 /* HealthJoyApp */ = {
+			isa = PBXGroup;
+			children = (
+				534CF92E28637B96001A69E9 /* Additional Files */,
+				534CF92928637B16001A69E9 /* Custom Views */,
+				53D479A928636EFE00B98682 /* Service Layer */,
+				53D479AC2863727E00B98682 /* Coordinators */,
+				53D479B4286372D900B98682 /* ViewControllers */,
+				53D479792863691F00B98682 /* AppDelegate.swift */,
+				53D4797B2863691F00B98682 /* SceneDelegate.swift */,
+				53D4797D2863691F00B98682 /* ViewController.swift */,
+				53D479822863692100B98682 /* Assets.xcassets */,
+				53D479842863692100B98682 /* LaunchScreen.storyboard */,
+				53D479872863692100B98682 /* Info.plist */,
+			);
+			path = HealthJoyApp;
+			sourceTree = "<group>";
+		};
+		53D4798F2863692100B98682 /* HealthJoyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				53D479902863692100B98682 /* HealthJoyAppTests.swift */,
+			);
+			path = HealthJoyAppTests;
+			sourceTree = "<group>";
+		};
+		53D479992863692100B98682 /* HealthJoyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53D4799A2863692100B98682 /* HealthJoyAppUITests.swift */,
+				53D4799C2863692100B98682 /* HealthJoyAppUITestsLaunchTests.swift */,
+			);
+			path = HealthJoyAppUITests;
+			sourceTree = "<group>";
+		};
+		53D479A928636EFE00B98682 /* Service Layer */ = {
+			isa = PBXGroup;
+			children = (
+				53EF33B62864D33B0042500D /* Api Objects */,
+				53D479AA28636F0C00B98682 /* BaseService.swift */,
+				53EF33B42864CB700042500D /* SearchService.swift */,
+				53779DF32867D28D006B1050 /* ImageOperation.swift */,
+			);
+			path = "Service Layer";
+			sourceTree = "<group>";
+		};
+		53D479AC2863727E00B98682 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				53D479AE2863729500B98682 /* Coordinator.swift */,
+				53D479B0286372A500B98682 /* AppCoordinator.swift */,
+				53D479B2286372C100B98682 /* HomeScreenCoordinator.swift */,
+				53D479BF286378FD00B98682 /* SearchCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		53D479B4286372D900B98682 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				53D479B5286372ED00B98682 /* Home Screen */,
+				53D479BA2863782C00B98682 /* Search Screen */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		53D479B5286372ED00B98682 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				53D479B6286372FE00B98682 /* HomeScreenVC.swift */,
+				53D479B82863730600B98682 /* HomeScreenVC.xib */,
+			);
+			path = "Home Screen";
+			sourceTree = "<group>";
+		};
+		53D479BA2863782C00B98682 /* Search Screen */ = {
+			isa = PBXGroup;
+			children = (
+				53D479BB286378C800B98682 /* SearchVC.swift */,
+				53D479BD286378D300B98682 /* SearchVC.xib */,
+				53EF33B92865FF060042500D /* SearchModel.swift */,
+			);
+			path = "Search Screen";
+			sourceTree = "<group>";
+		};
+		53EF33B62864D33B0042500D /* Api Objects */ = {
+			isa = PBXGroup;
+			children = (
+				53EF33B72864D3600042500D /* GiphyObject.swift */,
+			);
+			path = "Api Objects";
+			sourceTree = "<group>";
+		};
+		FF754B5B8722D5E98E2B2F07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F8503D40A98C8F27B8D8F1E /* Pods_HealthJoyApp.framework */,
+				AD6BA1CAAC0C11F68BA88C83 /* Pods_HealthJoyApp_HealthJoyAppUITests.framework */,
+				8DBA30DF9C028603036CE6BE /* Pods_HealthJoyAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53D479752863691F00B98682 /* HealthJoyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D479A02863692100B98682 /* Build configuration list for PBXNativeTarget "HealthJoyApp" */;
+			buildPhases = (
+				F3BAFE608DDFD6FF6406F3A6 /* [CP] Check Pods Manifest.lock */,
+				53D479722863691F00B98682 /* Sources */,
+				53D479732863691F00B98682 /* Frameworks */,
+				53D479742863691F00B98682 /* Resources */,
+				95DE9F266B7F0F870C1E85F5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthJoyApp;
+			productName = HealthJoyApp;
+			productReference = 53D479762863691F00B98682 /* HealthJoyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53D4798B2863692100B98682 /* HealthJoyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D479A32863692100B98682 /* Build configuration list for PBXNativeTarget "HealthJoyAppTests" */;
+			buildPhases = (
+				54F991618F31C66062E2224E /* [CP] Check Pods Manifest.lock */,
+				53D479882863692100B98682 /* Sources */,
+				53D479892863692100B98682 /* Frameworks */,
+				53D4798A2863692100B98682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53D4798E2863692100B98682 /* PBXTargetDependency */,
+			);
+			name = HealthJoyAppTests;
+			productName = HealthJoyAppTests;
+			productReference = 53D4798C2863692100B98682 /* HealthJoyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53D479952863692100B98682 /* HealthJoyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D479A62863692100B98682 /* Build configuration list for PBXNativeTarget "HealthJoyAppUITests" */;
+			buildPhases = (
+				0680AC6652AC181083073BCB /* [CP] Check Pods Manifest.lock */,
+				53D479922863692100B98682 /* Sources */,
+				53D479932863692100B98682 /* Frameworks */,
+				53D479942863692100B98682 /* Resources */,
+				4557481539B1D82C1C60FEDF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53D479982863692100B98682 /* PBXTargetDependency */,
+			);
+			name = HealthJoyAppUITests;
+			productName = HealthJoyAppUITests;
+			productReference = 53D479962863692100B98682 /* HealthJoyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53D4796E2863691F00B98682 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					53D479752863691F00B98682 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					53D4798B2863692100B98682 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 53D479752863691F00B98682;
+					};
+					53D479952863692100B98682 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 53D479752863691F00B98682;
+					};
+				};
+			};
+			buildConfigurationList = 53D479712863691F00B98682 /* Build configuration list for PBXProject "HealthJoyApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53D4796D2863691F00B98682;
+			productRefGroup = 53D479772863691F00B98682 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53D479752863691F00B98682 /* HealthJoyApp */,
+				53D4798B2863692100B98682 /* HealthJoyAppTests */,
+				53D479952863692100B98682 /* HealthJoyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53D479742863691F00B98682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534CF92D28637B46001A69E9 /* EntityCell.xib in Resources */,
+				53D479BE286378D300B98682 /* SearchVC.xib in Resources */,
+				53D479862863692100B98682 /* LaunchScreen.storyboard in Resources */,
+				53D479832863692100B98682 /* Assets.xcassets in Resources */,
+				53D479B92863730600B98682 /* HomeScreenVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D4798A2863692100B98682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D479942863692100B98682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0680AC6652AC181083073BCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthJoyApp-HealthJoyAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4557481539B1D82C1C60FEDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthJoyApp-HealthJoyAppUITests/Pods-HealthJoyApp-HealthJoyAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthJoyApp-HealthJoyAppUITests/Pods-HealthJoyApp-HealthJoyAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthJoyApp-HealthJoyAppUITests/Pods-HealthJoyApp-HealthJoyAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54F991618F31C66062E2224E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthJoyAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95DE9F266B7F0F870C1E85F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthJoyApp/Pods-HealthJoyApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthJoyApp/Pods-HealthJoyApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthJoyApp/Pods-HealthJoyApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3BAFE608DDFD6FF6406F3A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthJoyApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53D479722863691F00B98682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EF33B52864CB700042500D /* SearchService.swift in Sources */,
+				53D479B1286372A500B98682 /* AppCoordinator.swift in Sources */,
+				53D479AB28636F0C00B98682 /* BaseService.swift in Sources */,
+				53779DF42867D28D006B1050 /* ImageOperation.swift in Sources */,
+				53D4797E2863691F00B98682 /* ViewController.swift in Sources */,
+				53D479BC286378C800B98682 /* SearchVC.swift in Sources */,
+				53EF33BA2865FF060042500D /* SearchModel.swift in Sources */,
+				53D479AF2863729500B98682 /* Coordinator.swift in Sources */,
+				53D4797A2863691F00B98682 /* AppDelegate.swift in Sources */,
+				53D479C0286378FD00B98682 /* SearchCoordinator.swift in Sources */,
+				534CF92B28637B2B001A69E9 /* EntityCell.swift in Sources */,
+				53D4797C2863691F00B98682 /* SceneDelegate.swift in Sources */,
+				53D479B3286372C100B98682 /* HomeScreenCoordinator.swift in Sources */,
+				53D479B7286372FE00B98682 /* HomeScreenVC.swift in Sources */,
+				53EF33B82864D3600042500D /* GiphyObject.swift in Sources */,
+				534CF93028637BA1001A69E9 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D479882863692100B98682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D479912863692100B98682 /* HealthJoyAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D479922863692100B98682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D4799B2863692100B98682 /* HealthJoyAppUITests.swift in Sources */,
+				53D4799D2863692100B98682 /* HealthJoyAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53D4798E2863692100B98682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53D479752863691F00B98682 /* HealthJoyApp */;
+			targetProxy = 53D4798D2863692100B98682 /* PBXContainerItemProxy */;
+		};
+		53D479982863692100B98682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53D479752863691F00B98682 /* HealthJoyApp */;
+			targetProxy = 53D479972863692100B98682 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53D479842863692100B98682 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53D479852863692100B98682 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53D4799E2863692100B98682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53D4799F2863692100B98682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53D479A12863692100B98682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76A5D18D5AB2D9B4285C9A3F /* Pods-HealthJoyApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4R9X6WV5B7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealthJoyApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zavala.HealthJoyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53D479A22863692100B98682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F28F73B3A0462E3921F32D99 /* Pods-HealthJoyApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4R9X6WV5B7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealthJoyApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zavala.HealthJoyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53D479A42863692100B98682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB4789A65C587CADCB5C376A /* Pods-HealthJoyAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4R9X6WV5B7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zavala.HealthJoyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthJoyApp.app/HealthJoyApp";
+			};
+			name = Debug;
+		};
+		53D479A52863692100B98682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6471F47F4960B1A8EA47162 /* Pods-HealthJoyAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4R9X6WV5B7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zavala.HealthJoyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthJoyApp.app/HealthJoyApp";
+			};
+			name = Release;
+		};
+		53D479A72863692100B98682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFFA5FEE0AFECD0D2D40E26B /* Pods-HealthJoyApp-HealthJoyAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4R9X6WV5B7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zavala.HealthJoyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthJoyApp;
+			};
+			name = Debug;
+		};
+		53D479A82863692100B98682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F73EE1B41AFFA02D387BDADB /* Pods-HealthJoyApp-HealthJoyAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4R9X6WV5B7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zavala.HealthJoyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthJoyApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53D479712863691F00B98682 /* Build configuration list for PBXProject "HealthJoyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D4799E2863692100B98682 /* Debug */,
+				53D4799F2863692100B98682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53D479A02863692100B98682 /* Build configuration list for PBXNativeTarget "HealthJoyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D479A12863692100B98682 /* Debug */,
+				53D479A22863692100B98682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53D479A32863692100B98682 /* Build configuration list for PBXNativeTarget "HealthJoyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D479A42863692100B98682 /* Debug */,
+				53D479A52863692100B98682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53D479A62863692100B98682 /* Build configuration list for PBXNativeTarget "HealthJoyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D479A72863692100B98682 /* Debug */,
+				53D479A82863692100B98682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53D4796E2863691F00B98682 /* Project object */;
+}

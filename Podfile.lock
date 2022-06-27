@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.6.1)
+  - Gifu (3.3.1)
+
+DEPENDENCIES:
+  - Alamofire (= 5.6.1)
+  - Gifu
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Gifu
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  Gifu: 416d4e38c4c2fed012f019e0a1d3ffcb58e5b842
+
+PODFILE CHECKSUM: 6af50fcaf0b554e4b4ca3aa00748e554c083ab8e
+
+COCOAPODS: 1.11.2
